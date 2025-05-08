@@ -1,0 +1,13 @@
+# Spring Boot
+target/          # Thư mục chứa file biên dịch (tạo bởi Maven khi build dự án)
+*.log           # Các file log được tạo trong quá trình chạy ứng dụng
+*.jar           # File JAR được tạo khi build dự án
+*.war           # File WAR (nếu dự án tạo file này)
+.idea/          # Thư mục chứa cấu hình của IntelliJ IDEA
+*.iml           # File cấu hình dự án của IntelliJ
+.DS_Store       # File hệ thống của macOS, không liên quan đến dự án
+/build/         # Thư mục chứa file build (nếu dùng Gradle)
+/out/           # Thư mục chứa file đầu ra của IDE
+.mvn/           # Thư mục chứa cấu hình Maven
+mvnw            # Script Maven Wrapper (dùng để chạy Maven mà không cần cài đặt)
+mvnw.cmd        # Script Maven Wrapper cho Windows
